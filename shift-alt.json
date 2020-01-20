@@ -1,0 +1,64 @@
+{
+  "title": "Language Toggler",
+  "rules": [
+    {
+      "description": "Shift + Alt to switch input method",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "left_shift",
+            "modifiers": {
+              "mandatory": ["left_alt"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": ["left_alt"]
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "0",
+              "modifiers": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift",
+                "left_alt"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "left_alt",
+            "modifiers": {
+              "mandatory": ["left_shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_alt",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "0",
+              "modifiers": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift",
+                "left_alt"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
