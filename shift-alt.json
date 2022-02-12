@@ -20,14 +20,8 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "0",
-              "modifiers": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift",
-                "left_alt"
-              ]
+              "key_code": "f13",
+              "modifiers": ["left_alt", "left_shift"]
             }
           ]
         },
@@ -47,14 +41,8 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "0",
-              "modifiers": [
-                "left_control",
-                "left_option",
-                "left_command",
-                "left_shift",
-                "left_alt"
-              ]
+              "key_code": "f13",
+              "modifiers": ["left_alt", "left_shift"]
             }
           ]
         }
