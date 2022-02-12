@@ -21,5 +21,10 @@ UI, using which is a **terrible** experience.
 
 1. Install [Karabiner](https://github.com/pqrs-org/Karabiner-Elements).
 2. Copy `shift-alt.json` and `fn.json` to the `~/.config/karabiner/assets/complex_modifications/`.
+
+   ```shell
+   cp *.json ~/.config/karabiner/assets/complex_modifications/
+   ```
+
 3. Start Karabiner and enable the config.
 4. Go to the system input settings of the macOS and rebind the input switch to whatever pressing the `Alt+Shift` or the `Globe/Fn` key emit.
